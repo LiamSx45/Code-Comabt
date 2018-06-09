@@ -1,0 +1,260 @@
+<!-- https://codecombat.com/play/level/quizlet -->
+<!-- Create a quiz to help your friends find out... -->
+<!-- ... what kind of person they *really* are. -->
+
+<div id="content">
+    <!-- Title your quiz anything you like! -->
+    <!-- What kind of dog are you? -->
+    <!-- What shade of fuschia speaks to your soul? -->
+    <!-- What clique do you belong in? -->
+    <h1>Pick a vacation and i'll tell you what dog you should get!</h1>
+    <div class="quizQuestion">
+        <h2>1. Where Do You want to go?</h2>
+        <div class="answers">
+            <div data-value="A" class="answer">
+                <div class="answerText">
+                    <img src="https://tr-images.condecdn.net/image/31xgw7DGN0O/crop/200/square/f/florida_cnt_9nov09_istock_b.jpg"/>
+                </div>
+            </div>
+            <div data-value="B" class="answer">
+                <div class="answerText">
+                    <img src="http://www.smarttravelasia.com/images/Australia/AUSTSPACradleMtLodge.jpg"/>
+                </div>
+            </div>
+            <div data-value="C" class="answer">
+                <div class="answerText">
+                    <img src="http://beautifulweddingsedona.com/blog/wp-content/uploads/2016/03/sedonatimeshare.jpg"/>
+                </div>
+            </div>
+            <div data-value="D" class="answer">
+                <div class="answerText">
+                    <img src="https://i.forbesimg.com/media/lists/places/kansas-city-mo_200x200.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quizQuestion">
+        <h2>2. What item do you need with you?</h2>
+        <div class="answers">
+            <div data-value="A" class="answer">
+                <div class="answerText">
+                    <img src="https://iparamedics.com/wp-content/uploads/2018/03/iphone-repairs-icon-200x200.png"/>
+                </div>
+            </div>
+            <div data-value="B" class="answer">
+                <div class="answerText">
+                    <img src="https://www.gsmprice.com/image/cache/catalog/products/2017/05/280204/Beats%20EP%20On-Ear%20Headphones%20Black-200x200.png"/>
+                </div>
+            </div>
+            <div data-value="C" class="answer">
+                <div class="answerText">
+                    <img src="http://www.eurowaytours.com/wp-content/uploads/2016/11/capital-one-ventureone-rewards-credit-card-101614.png"/>
+                </div>
+            </div>
+            <div data-value="D" class="answer">
+                <div class="answerText">
+                    <img src="http://rs755.pbsrc.com/albums/xx195/skez520mia/MONEY/Money-Bag-psd22961.png~c200"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quizQuestion">
+       <h2>3. Which celebrity would you bring?</h2>
+        <div class="answers">
+            <div data-value="A" class="answer">
+                <div class="answerText">
+                    <img src="https://vg-images.condecdn.net/image/1BNeR3GXab1/crop/200/f/Kim-K-vogue-14june17-rex.jpg"/>
+                </div>
+            </div>
+            <div data-value="B" class="answer">
+                <div class="answerText">
+                    <img src="http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/68/2016/07/08073619/shawn-mendes-june-2016-billboard-1548-200x200.jpg"/>
+                </div>
+            </div>
+            <div data-value="C" class="answer">
+                <div class="answerText">
+                    <img src="https://gl-images.condecdn.net/image/pgPgOZ2Vpaa/crop/200/square/f/JLAW_Glamour_21Nov17_GettyImages-873077588_P.jpg"/>
+                </div>
+            </div>
+            <div data-value="D" class="answer">
+                <div class="answerText">
+                    <img src="http://nrg91.gr/wp-content/uploads/2018/01/Justin-Bieber-new-1-200x200.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add a fourth, final question below: -->
+    <div class="quizQuestion">
+       <h2>3. What would you bring back home?</h2>
+        <div class="answers">
+            <div data-value="A" class="answer">
+                <div class="answerText">
+                    <img src="https://i.pinimg.com/236x/54/db/9a/54db9a59e2607e5e21e2e075a87e41ee--audi-r-black-black-cars.jpg"/>
+                </div>
+            </div>
+            <div data-value="B" class="answer">
+                <div class="answerText">
+                    <img src="https://static.turbosquid.com/Preview/001148/889/LV/3D-sea-shell-1-model_200.jpg"/>
+                </div>
+            </div>
+            <div data-value="C" class="answer">
+                <div class="answerText">
+                    <img src="http://totescute.com/wp-content/uploads/2016/05/Ty-Beanie-Baby-Giraffe-Stuffed-Animal.jpg"/>
+                </div>
+            </div>
+            <div data-value="D" class="answer">
+                <div class="answerText">
+                    <img src="https://www.moptu.com/meta_thumbnails/5/4/thumbs/54233.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result" id="a-dog">
+        <h2> </h2>
+        <img src="http://www.hoobly.com/big/bPqVjDxt4V.jpg">
+        <p>
+            You got: Golden Retriever Puppies!!!
+        </p>
+    </div>
+    <div class="result" id="b-dog">
+         <h2> </h2>
+        <img src="https://siberianhusky.com/wp-content/uploads/2016/09/puppyy11.jpg">
+        <p>
+            You got: Husky Puppie!!!
+        </p>
+    </div>
+   <div class="result" id="c-dog">
+         <h2> </h2>
+        <img src="https://gfp-2a3tnpzj.stackpathdns.com/wp-content/uploads/2016/02/Austin_photo-1-600x600.jpg">
+        <p>
+            You got: Mini Schnauzer Puppies!!!
+        </p>
+    </div>
+    <div class="result" id="d-dog">
+         <h2> </h2>
+        <img src="https://vetstreet.brightspotcdn.com/dims4/default/be078a4/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fad%2F77%2F11c8b436438ab45d438992accaec%2FAP-0RKGVU-ph645080113.jpg">
+        <p>
+            You got: A Poodle Family!!!
+        </p>
+    </div>
+    <div class="result" id="no-dog">
+        <h2>:(</h2>
+        <img src="https://images.mysecuritysign.com/img/lg/K/No-Dog-Symbol-Sign-K-7277.gif">
+        <p>
+            You don't get a dog..... I'm not Oprah, I can't give dogs to everyone :(
+        </p>
+    </div>
+    <div id="footer">
+        <button class="btn btn-primary btn-block btn-lg" id="submitButton">Submit
+            </button>
+        <button class="btn btn-primary btn-block btn-lg" id="retryButton">Retry</button>
+    </div>
+</div>
+<style>
+    body {
+        background-image: url("https://i.pinimg.com/originals/02/27/0a/02270a2e14ac5a9a3748f8b06c96fb74.jpg")
+    }
+    .answer {
+        cursor:pointer;
+        text-align:center;
+        width:200px;
+        height:200px;
+        margin:30px;
+        color:white;
+        background-color:rgb(255,255,255);
+        padding:0px;
+        border: 0px solid black;
+    }
+    .selected {
+        background-color:rgb(100, 146, 255);
+    }
+    #header {
+        text-align:center;
+        background-color:white;
+    }
+    #footer {
+        text-align:center;
+    }
+    .answerText {
+        font-size:2em;
+    }
+    h2 {
+        padding-top:1em;
+    }
+    h1 {
+        font-size:3em;
+        color:rgb(238,116,116);
+    }
+    #content {
+        background-color:white;
+        width:566px;
+        padding:16px;
+        text-align:center;
+        font-family:sans-serif;
+        font-weight:bold;
+        text-transform:uppercase;
+        border: 1px solid black;
+    }
+    .muted {
+        opacity:0.25;
+    }
+    .result {
+        display:none;
+    }
+    #retryButton {
+        display: none;
+    }
+</style>
+<script>
+    var answers = $(".answer");
+    var submitButton = $("#submitButton");
+    var retryButton = $("#retryButton");
+    var quizQuestions = $(".quizQuestion");
+    var results = $(".result");
+    function highlightSelected() {
+        var answerDiv = $(this);
+        answerDiv.siblings().addClass("muted");
+        answerDiv.siblings().removeClass("selected");
+        // Add the "selected" class to answerDiv:
+        answerDiv.addClass("selected");
+        // Remove the "muted" class from answerDiv:
+        answerDiv.removeClass("muted");
+    }
+    answers.on("click", highlightSelected);
+    function submitAnswers() {
+        var aCount = $(".selected[data-value='A']").length;
+        var bCount = $(".selected[data-value='B']").length;
+        var cCount = $(".selected[data-value='C']").length;
+        var dCount = $(".selected[data-value='D']").length;
+        // Create 2 more variables for C/D counts:
+        if (aCount > 1) {
+            $("#a-dog").show();
+        } 
+        else if (bCount > 1) {
+            $("#b-dog").show();
+        }    
+        else if (cCount > 1) {
+            $("#c-dog").show();
+        } 
+        else if (dCount > 1) {
+            $("#d-dog").show();
+        }    
+        else {
+            $("#no-dog").show();
+        }
+        // Add more if-statements to cover C/D answers:
+        quizQuestions.hide();
+        retryButton.show();
+        submitButton.hide();
+    }
+    submitButton.on("click", submitAnswers);
+    function resetPage() {
+        quizQuestions.show();
+        answers.removeClass("muted");
+        answers.removeClass("selected");
+        submitButton.show();
+        retryButton.hide();
+        results.hide();
+    }
+    retryButton.on("click", resetPage);
+</script>
